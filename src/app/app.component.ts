@@ -1,6 +1,6 @@
-import config from '../core-bundle-adapter';
+import core from '../core-bundle-adapter';
 
-@config._Component({
+@core._Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']

@@ -1,6 +1,7 @@
 import { ng } from 'core-bundle';
 
-const config = {
+// Needed direct use without es6 "destructuring". "Destructuring" causes build error
+const core = {
   _enableProdMode: ng.core.enableProdMode,
   _BrowserModule: ng.platformBrowser.BrowserModule,
   _NgModule: ng.core.NgModule,
@@ -8,4 +9,4 @@ const config = {
   _Component: ng.core.Component
 };
 
-export default config;
+export default core;

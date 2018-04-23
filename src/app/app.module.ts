@@ -1,13 +1,13 @@
-import config from '../core-bundle-adapter';
+import core from '../core-bundle-adapter';
 import { AppComponent } from './app.component';
 
 
-@config._NgModule({
+@core._NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    config._BrowserModule,
+    core._BrowserModule,
   ],
   bootstrap: [AppComponent],
   entryComponents: [AppComponent]
