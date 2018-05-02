@@ -16,8 +16,9 @@ next encapsulated dependencies:
 * "core-js"
 * "rxjs
 
-"Core-bundle" is used via "core-bundle-adapter":
+["core-bundle"](https://github.com/Investigations-eagle/core-bundle) is used via "core-bundle-adapter" file:
 
+**core-bundle-adapter.ts**
 ```javascript
 import { ng } from 'core-bundle';
 
@@ -34,7 +35,7 @@ export default config;
 
 And all "Angular" methods are available in code in this way:
 
-```javascript
+```
   @core._NgModule
   core._enableProdMode()
   core._platformBrowserDynamic()
